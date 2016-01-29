@@ -34,7 +34,7 @@ import argparse
 import sys
 
 parser = argparse.ArgumentParser()
-parser.add_argument('-a', '--address', action='store', default='elasticsearch.devsmate.com', help='Elasticsearch address')
+parser.add_argument('-a', '--address', action='store', default='elasticsearch.test.com', help='Elasticsearch address')
 parser.add_argument('-p', '--port', action='store', default=9200, help='Elasticsearch port')
 parser.add_argument('-P', '--period', action='store', default=5, type=int, help='Rotation period in days')
 parser.add_argument('-n', '--name', action='store', default="kibana_", help='Index prefix')
